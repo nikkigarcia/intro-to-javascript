@@ -28,6 +28,8 @@ var mod = b % c;
 console.log(mod);
 
 
-var e = '5'; //string because it's in quotes
+var e = '20'; //string because it's in quotes
 console.log(e);
 console.log(typeof e);
+console.log(a === e); //comparing a to e a is a number e is a string stict comparison
+console.log(a == e); //loose comparison
