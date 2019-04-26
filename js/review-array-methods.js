@@ -1,0 +1,15 @@
+var arr1 = ['apple', 'orange', 'grapes'];
+console.log(arr1);
+console.log(arr1.pop(0, 2));
+console.log(arr1.pop(0, 1));
+console.log(arr1.pop(1, 2));
+arr1.push('banana');
+console.log(arr1);
+arr1.unshift('strawberry');
+console.log(arr1);
+arr1.splice(2,1, 'pear');
+console.log(arr1);
+arr1.splice(1, 1);
+console.log(arr1);
+var copyOfArr1 = arr1.sclice();
+console.log(copyOfArr1);
